@@ -3,13 +3,10 @@ const app = require('./src/app');
 
 const PORT = process.env.PORT || 3000;
 
-// Solo iniciar el servidor si no estamos en Vercel
-if (process.env.NODE_ENV !== 'production') {
-    app.listen(PORT, () => {
-        console.log(`🚀 Servidor WhatsApp Bot corriendo en puerto ${PORT}`);
-        console.log(`📱 Webhook URL: http://localhost:${PORT}/webhook`);
-    });
-}
+app.listen(PORT, () => {
+  console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
+});
 
 // Exportar para Vercel
 module.exports = app;
+
