@@ -159,8 +159,8 @@ class MessageService {
     async sendSupportInfo(from) {
         const supportText = `💬 *Soporte al Cliente*
 
-📞 Teléfono: +1234567890
-📧 Email: soporte@tuempresa.com
+📞 Teléfono: +1 809-757-2575
+📧 Email: soporte@rvrservice.com
 ⏰ Horario: Lun-Vie 9AM-6PM
 
 ¿Tienes alguna pregunta específica? Escríbela y te ayudaremos.`;
@@ -171,11 +171,11 @@ class MessageService {
     async sendLocationInfo(from) {
         const locationText = `📍 *Nuestra Ubicación*
 
-🏢 Calle Principal 123
-🌆 Ciudad, País
+🏢 C/los Haitises, #5
+🌆 Santo Domingo, Rep Dom.
 📮 CP: 12345
 
-🗺️ Ver en Google Maps: https://maps.google.com
+🗺️ Ver en Google Maps: https://maps.google.com  
 
 ¿Te gustaría agendar una visita?`;
 

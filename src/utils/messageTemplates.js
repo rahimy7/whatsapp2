@@ -1,5 +1,5 @@
 module.exports = {
-    welcome: `¡Hola! 👋 Bienvenido a *TuEmpresa Bot*
+    welcome: `¡Hola! 👋 Bienvenido a *RVR Service*
 
 Soy tu asistente virtual y estoy aquí para ayudarte 24/7 🤖
 
